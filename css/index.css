@@ -71,6 +71,30 @@ p {
     margin: 0 auto;
 }
 
+
+
+.navigationBar{
+    margin: 1%;
+    padding: 1%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items:flex-end;
+    justify-content: space-between;
+    
+
+}
+
+.navigationBar a {
+    padding-right:60px;
+    text-decoration: none ;
+    color: black;
+}
+
+.homepg_headepic{
+    margin: 1%;
+    padding: 1%;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -104,13 +128,54 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+   
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+.box:nth-child(1) {
+    
+    background: teal;
+    }
+.box:nth-child(2) {
+    
+        background: gold;
+    }    
+.box:nth-child(3) {
+    
+        background: cadetblue;
+        }
+.box:nth-child(4) {
+        
+            background: coral;
+        }     
+.box:nth-child(5) {
+    
+            background: crimson;
+            }
+.box:nth-child(6) {
+            
+                background: forestgreen;
+            }   
+            .box:nth-child(7) {
+    
+                background: darkorchid;
+                }
+            .box:nth-child(8) {
+                
+                    background: hotpink;
+                }    
+            .box:nth-child(9) {
+                
+                    background: indigo;
+                    }
+            .box:nth-child(10) {
+                    
+                        background:dodgerblue;
+                    }     
+            
 
 .bottom-content {
     display: flex;
@@ -144,3 +209,74 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+.container about-page{
+    width: 800px;
+    margin: 0 auto;
+}
+
+.about_navigationBar{
+    margin: 1%;
+    padding: 1%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items:flex-end;
+    justify-content: space-between;
+    margin-bottom: 10px;
+
+}
+
+.about_navigationBar a{
+    padding-right:60px;
+    text-decoration: none ;
+    color:black;
+}
+.aboutpg_headepic{
+margin: 1%;
+}
+.about_top-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.about_top-content .about_text-container {
+   
+    padding: 4%;
+    padding-bottom: 20px;  
+}
+
+.about_middleText {
+    display:flex;
+     flex-direction:row;
+     flex-wrap : wrap;
+     
+    
+   }
+   .about_middleText > div {
+   flex-wrap : wrap;
+     width: 360px;
+     margin:15px;
+     border-bottom: 1px dashed black;
+     padding :10px;
+     }
+
+     button{
+        border: 2px solid black;
+        border-radius: 8px;
+        background-color: white;
+        padding: 7px 30px;
+        font-size: 13px;
+        cursor: pointer;
+        
+        margin-top : 15px ; 
+      }   
+      .last-section {
+       
+        padding: 4%;
+        padding-bottom: 20px;  
+        
+      }
